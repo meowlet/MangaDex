@@ -1,0 +1,92 @@
+/* PC */
+
+@media (min-width: 1024px) {
+    .hide{
+        display: none;
+    }
+    .details__box-fixed{
+        position: fixed;
+    }
+}
+
+/* PC low resolution */
+
+@media (min-width: 1024px) and (max-width: 1350px){
+    .hide{
+        display: none;
+    }
+    .details__box-fixed{
+        max-width: 300px;
+        right: 0;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+.hide-on-tablet{
+    display: none !important;
+}
+
+.course-register__container{
+    top: 10% ;
+    left: 10%;
+    right: 10%;
+}
+
+.details__box-fixed{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.content-right{
+    margin-left: 0px;
+}
+
+.content-right__container{
+    margin-left: 0px;
+}
+
+.content__input:checked ~ .content-right{
+    margin-left: 0px;
+}
+}
+
+/* Mobile */
+
+
+@media (max-width: 739px){
+
+.hide-on-mobile{
+    display: none !important;
+}
+.course-register__container{
+    top: 10% ;
+    left: 10%;
+    right: 10%;
+}
+
+.details__box-fixed{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 40px 0px;
+}
+
+.container__details{
+    flex-direction: column-reverse;
+}
+
+.content-right{
+    margin-left: 0px;
+}
+
+.content-right__container{
+    margin-left: 0px;
+}
+.content__input:checked ~ .content-right{
+    margin-left: 0px;
+}
+
+}

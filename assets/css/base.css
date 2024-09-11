@@ -1,0 +1,81 @@
+:root{
+    --primary-color: rgb(255, 103, 64);
+    --primary-hover-color: rgb(230, 97, 62);
+    --menu-text-color: rgb(36, 36, 36);
+    --menu-text-hover-color: rgb(232, 234, 235);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+    --md-accent: 240 241 242;
+    --lastest-bg-color: #F0F1F2;
+    --tag-text-color: #35509a;
+    --tag-bg-color: #f0f8ff;
+    --price-color: #3cb46e;
+    --course-border-color: #e0e0e0;
+    --exam-text-color: #677788;
+    --group-details-text-color: #1a1a1a;
+    --input-color:#bdc5d1;
+    --input-focus-color: #7c93d2;
+    --tag-search-text-color: #e7eaf3;
+    --tag-search-bg-color: #e8f2ff;
+    --tag-search-transition-color: #8c98a4;
+    --exam-bg-color:#f8f9fa;
+    --pagination-bg-color-hover: #f8fafd;
+    --fb-text-color:#3b5998;
+    --gg-text-color:#db4a39;
+    --user-public-text-bg-color: #d1e2ff;
+    --process-active-bg-color: 	#32CD32;
+    --alert-text-color: #1f5e39;
+    --alert-flashcard-color: #d8f0e2;
+    --economy-price-text-color: #e43a45;
+    --flashcard-train-btn-color: #2e4687;
+    --vocabulary-icon-color: #0c6ff9;
+    --answer-btn-color: #dfe6e9;
+    --answer-btn-hover-color: #b2bec3;
+    --paircard-volcabulary-text-color: #e67e22;
+    --spell-listen-bg-color: #ecf0f1;
+    --spell-alert-bg-color: #ffefd8;
+    --spell-alert-text-color: #855a1f;
+    --grammar-btn-color: #dfdfe1;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.have--bg-color{
+    background-color: var(--exam-bg-color);
+}
+
+.mgl-10px{
+    margin-left: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex__container{
+    display: flex;
+    align-items: center;
+}
+
+.relative{
+    position: relative;
+}
