@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/css/grid.css" />
     <link rel="stylesheet" href="../assets/css/courseLearn.css" />
     <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="/assets/css/userProfile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>STUDY4</title>
+    <title>MangaDex</title>
   </head>
   <body>
     <!-- Body -->
@@ -35,9 +36,7 @@
                 src="/assets/img/mangadex-logo.svg"
                 alt=""
               />
-              <a href="courseLearn.html" class="content-left__header"
-                >MangaDex</a
-              >
+              <a href="home.html" class="content-left__header">MangaDex</a>
             </div>
             <a href="" class="content-left__dropleft">
               <label for="content__checkbox"
@@ -48,7 +47,7 @@
           <div class="course-learn__container">
             <ul class="course-learn__list">
               <li class="course-learn__item">
-                <a href="" class="course-learn__link course-learn__link--chosen"
+                <a href="" class="course-learn__link"
                   ><i class="home__icon fa-solid fa-house"></i> Home</a
                 >
               </li>
@@ -432,556 +431,75 @@
             </div>
           </div>
           <div class="content-right__container">
-            <div class="grid wide grid-wide-course-learn">
-              <h1 class="content__header">Popular New Titles</h1>
-              <a href="" class="popular__box row">
-                <img
-                  src="/assets/img/f6f5e3fa-d11c-4bd1-a512-b75c14d1080a.jpg.512.jpg"
-                  alt=""
-                  class="popular__img col l-3 m-6 c-8"
-                  width="215px"
-                  height="308px"
-                />
-                <div class="popular__information col l-9 m-6 c-12">
-                  <h2 class="popular__header">Irozuku Monochrome</h2>
-                  <span class="popular__tags popular__tags--highlight"
-                    >Suggestive</span
-                  >
-                  <span class="popular__tags">Comedy</span>
-                  <span class="popular__tags">Romance</span>
-                  <p class="popular__description">
-                    Isshiki falls in love with a maiden who is pure and
-                    innocent, but he has been possessed by Asmodeus, the demon
-                    of lust.
-                  </p>
-                  <p class="popular__description">
-                    Isshiki falls in love with a maiden who is pure and
-                    innocent, but he has been possessed by Asmodeus, the demon
-                    of lust.
-                  </p>
-                  <div class="popular__transition">
-                    <p class="popular__author">Uchiyama Atsushi</p>
-                    <div class="popular__transition-right">
-                      <p class="popular_no">NO.2</p>
-                      <i class="popular__icon fa-solid fa-angle-left"></i>
-                      <i class="popular__icon fa-solid fa-angle-right"></i>
-                    </div>
+            <div class="userProfile__container">
+              <img
+                class="user__background"
+                src="/assets/img/user__banner.png"
+                alt=""
+              />
+              <div class="userProfile__content row">
+                <div class="userProfile__left col l-3 m-3 c-12">
+                  <img
+                    src="/assets/img/avatar.png"
+                    alt=""
+                    class="user__avatar"
+                    width="75%"
+                    height="196px"
+                  />
+                  <div class="user__btn">
+                    <a href="" class="user-btn__link user-btn__link--chosen"
+                      ><i class="user__btn-icon fa-regular fa-bookmark"></i>
+                      Follow</a
+                    >
+                  </div>
+                  <div class="user__btn">
+                    <a href="" class="user-btn__link"
+                      ><i class="user__btn-icon fa-regular fa-flag"></i>
+                      Report</a
+                    >
                   </div>
                 </div>
-              </a>
-              <div class="latest__box">
-                <h1 class="content__header">Latest Updates</h1>
-                <div class="latest__container row">
-                  <div class="lastest__content col l-4 m-6 c-12">
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
+                <div class="userProfile__right col l-9 m-9 c-12">
+                  <h2 class="user__name">ABCXYZ</h2>
+                  <ul class="user__list">
+                    <div class="user__list-background">
+                      <li class="user__item">
+                        <a href="" class="user__link user__link--chosen"
+                          >Info</a
                         >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
+                      </li>
+                      <li class="user__item">
+                        <a href="" class="user__link">Uploads</a>
+                      </li>
+                      <li class="user__item">
+                        <a href="" class="user__link">MDLists</a>
+                      </li>
+                    </div>
+                  </ul>
+                  <div class="user__info">
+                    <h3 class="user__header">User ID</h3>
+                    <p class="user__content">6c5238af-123-1245-662-312441</p>
                   </div>
-                  <div class="lastest__content col l-4 m-6 c-12">
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
+                  <div class="user__info">
+                    <h3 class="user__header">Connections</h3>
+                    <p class="user__content">No connected accounts</p>
+                    <div class="user__btn connection__btn">
+                      <a href="" class="user-btn__link">
+                        <i class="user__btn-icon fa-solid fa-link"></i>
+                        Connect an external account
+                      </a>
+                    </div>
                   </div>
-                  <div class="lastest__content col l-4 m-6 c-12">
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
+                  <div class="user__info">
+                    <h3 class="user__header">Roles</h3>
+                    <span class="role__tags"
+                      ><i class="fa-regular fa-circle"></i> User</span
+                    >
                   </div>
-                </div>
-              </div>
-              <div class="slider-comic">
-                <h1 class="content__header">Self-Published</h1>
-                <div class="slider-comic-container row">
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                </div>
-              </div>
-              <div class="slider-comic">
-                <h1 class="content__header">Staff Picks</h1>
-                <div class="slider-comic-container row">
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
+                  <div class="user__info">
+                    <h3 class="user__header">Uploads</h3>
+                    <p class="user__content">0</p>
+                  </div>
                 </div>
               </div>
             </div>

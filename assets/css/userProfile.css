@@ -1,0 +1,112 @@
+.userProfile__container{
+    margin-top: 40px;
+}
+
+.user__background{
+    height: 210px;
+    width: 100%;
+    background-position: center 25%;
+    background-size: cover;
+}
+
+.user__avatar{
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: rgb(var(--md-background));
+}
+
+.userProfile__content{
+    padding: 0px 40px;
+}
+
+.user__btn{
+    margin-top: 20px;
+}
+
+.user-btn__link{
+    padding: 10px 20px;
+    background-color: var(--md-accent);
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.user-btn__link:hover{
+    background-color: var(--user-btn-hover-color);
+    transition: 0.2s;
+}
+
+
+.user__btn-icon{
+    margin-right: 20px;
+}
+
+.user-btn__link--chosen{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.user-btn__link--chosen:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.user__name{
+    margin-top: 40px;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.user__list{
+    list-style: none;
+
+}
+
+.user__list-background{
+    background-color: var(--md-accent);
+    display: inline-block;
+    padding: 8px;
+}
+
+.user__item{
+    display: inline;
+    font-size: 1rem;
+}
+
+.user__link{
+    text-decoration: none;
+    color: gray;
+    opacity: 0.4;
+    padding: 4px 8px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.user__link:hover{
+    opacity: 0.8;
+}
+
+.user__link--chosen{
+    color: white;
+    background: black;
+    opacity: 1;
+}
+
+.user__info{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.user__header{
+    margin-bottom: 10px;
+}
+
+.role__tags{
+    padding: 6px;
+    background-color: var(--md-accent);
+}
