@@ -1,0 +1,213 @@
+body{
+    background: calc(50% - 25vw) 8rem no-repeat url(/assets/img/mdex-login-key.png), #111111 !important;
+}
+
+.login__content{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login__logo{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.login__logo:hover .logo__link{
+    text-decoration: underline;
+    text-decoration-color: #e6613e;
+    transition: 0.1s;
+}
+
+.logo__link{
+    font-size: 1.8rem;
+    color: var(--logo-color);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.login__header{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.login__box{
+    padding: 20px 40px 0px 40px;
+    border-top: 4px solid;
+    background: #212328;
+    border-color: #ff6740;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 30%) !important;
+    width: 500px;
+    color: white;
+}
+
+.login__label{
+    margin: 8px 0px;
+    font-size: 0.8rem;
+}
+
+.login__input{
+    width: 100%;
+    padding: 10px 6px;
+    font-size: 1rem;
+    background-color: #3d414a;
+    outline: 0;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.login__input:focus{
+    outline: solid 2px #bc553b;
+    transition: 0.2s;
+}
+
+.login__sub{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#input__checkbox{
+    accent-color: #ff6740 !important;
+    outline: none;
+
+}
+
+.remember__me{
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.forgot__pass{
+    color: #ff6740;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.forgot__pass:hover{
+    text-decoration: underline;
+}
+
+.login__btn{
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #ff6740;
+    padding: 6px 0px;
+    margin: 20px 0px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+.login__btn:hover{
+    background-color: #e6613e;
+    transition: 0.2;
+}
+
+.login__text{
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #ff6740;
+}
+
+.login__text:hover{
+    text-decoration: underline;
+}
+
+.register__box{
+    margin-top: 30px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register__box-text{
+    font-size: 0.8rem;
+    color: #b2b2b2;
+    margin-right: 20px;
+}
+
+.register__link{
+    font-size: 0.8rem;
+    color: #ff6740;
+    text-decoration: none;
+}
+
+.register__link:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* Register CSS */
+
+.register__required{
+    display: block;
+    text-align: right;
+    margin-top: 30px;
+    color: #909090;
+    font-size: 0.8rem;
+}
+
+.register__required-icon{
+    color: #ff5e42;
+}
+
+.register__back{
+    margin: 20px 0px;
+    display: block;
+}
+
+/* Forgot Pass */
+
+.forgot__text{
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 10px 0px;
+    color: #b2b2b2;
+}
+
+
+/* Verify */
+
+.emailVerify__box{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    color: #d8a731;
+    font-size: 0.8rem;
+}
+
+.email__warning-icon{
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+.email__instruction{
+    color: #deefef;
+    font-size: 0.8rem;
+    margin: 10px 0px;
+}
+
+.email__instruction-end{
+    margin: 20px 0px;
+}
+
+.re-send__text{
+    color: #ff6740;
+}
