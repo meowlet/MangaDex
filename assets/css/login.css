@@ -211,3 +211,10 @@ body{
 .re-send__text{
     color: #ff6740;
 }
+
+#premium{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px ;
+    font-size: 1rem;
+}
