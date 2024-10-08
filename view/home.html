@@ -1,992 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../assets/css/base.css" />
-    <link rel="stylesheet" href="../assets/css/home.css" />
-    <link rel="stylesheet" href="../assets/css/grid.css" />
-    <link rel="stylesheet" href="../assets/css/courseLearn.css" />
-    <link rel="stylesheet" href="../assets/css/responsive.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>MangaDex</title>
-  </head>
-  <body>
-    <!-- Body -->
-    <div class="content">
-      <div class="content__container">
-        <input type="checkbox" id="content__checkbox" class="content__input" />
-        <div class="content-left hide-on-mobile hide-on-tablet">
-          <div class="flex__container header__container">
-            <div class="flex__container">
-              <img
-                style="margin-right: 5px"
-                src="/assets/img/mangadex-logo.svg"
-                alt=""
-              />
-              <a href="home.html" class="content-left__header">MangaDex</a>
-            </div>
-            <a href="" class="content-left__dropleft">
-              <label for="content__checkbox"
-                ><i class="content-left__icon fa-solid fa-angle-left"></i
-              ></label>
-            </a>
-          </div>
-          <div class="course-learn__container">
-            <ul class="course-learn__list">
-              <li class="course-learn__item">
-                <a href="" class="course-learn__link course-learn__link--chosen"
-                  ><i class="home__icon fa-solid fa-house"></i> Home</a
-                >
-              </li>
-              <li class="course-learn__item">
-                <p class="course-learn__link course-learn__link--header">
-                  <i class="home__icon fa-solid fa-bookmark"></i> Follows
-                </p>
-                <ul class="content-left-menu__child">
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Updates
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Library
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      MDLists
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      My Groups
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Reading History
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="course-learn__item">
-                <p class="course-learn__link course-learn__link--header">
-                  <i class="home__icon fa-solid fa-book-open"></i> Titles
-                </p>
-                <ul class="content-left-menu__child">
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Advanced Search
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Recently Added
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Lastest Updates
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Random
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="course-learn__item">
-                <p class="course-learn__link course-learn__link--header">
-                  <i class="home__icon fa-solid fa-users"></i> Community
-                </p>
-                <ul class="content-left-menu__child">
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Forums
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Groups
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Users
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="course-learn__item">
-                <p class="course-learn__link course-learn__link--header">
-                  <i class="home__icon fa-solid fa-marker"></i> MangaDex
-                </p>
-                <ul class="content-left-menu__child">
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Site Rules
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      Announcements
-                    </a>
-                  </li>
-                  <li class="course-learn__item">
-                    <a
-                      href=""
-                      class="course-learn__link course-learn__link-child"
-                    >
-                      About Us
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <div class="manga__communities">
-              <a class="manga__communities-icon" href="">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-              <a class="manga__communities-icon" href="">
-                <i class="fa-brands fa-discord"></i>
-              </a>
-              <a class="manga__communities-icon" href="">
-                <i class="fa-brands fa-x-twitter"></i>
-              </a>
-              <a class="manga__communities-icon" href="">
-                <i class="fa-brands fa-reddit-alien"></i>
-              </a>
-            </div>
-            <div class="manga__copyright">
-              <p class="manga__copyright-text">v2024.8.19</p>
-              <p class="manga__copyright-text">© MangaDex 2024</p>
-            </div>
-          </div>
-        </div>
-        <div class="content-right">
-          <nav class="nav__content-right">
-            <div
-              class="nav__content-header-right hide-on-mobile hide-on-tablet"
-            >
-              <div>
-                <input placeholder="Search" class="search__input" type="text" />
-                <i class="search__icon fa-solid fa-magnifying-glass"></i>
-              </div>
-              <a style="color: black; text-decoration: none" href="login.html">
-                <i class="user__icon fa-regular fa-user"></i>
-              </a>
-            </div>
-            <label class="hide" for="nav-mobile-course-checkbox"
-              ><i class="fa-solid fa-bars nav__icon nav__icon-mobile"></i
-            ></label>
-          </nav>
-          <input
-            type="checkbox"
-            id="nav-mobile-course-checkbox"
-            class="nav-mobile-course__input"
-          />
-          <div class="nav__mobile-course hide">
-            <div class="flex__container header__container">
-              <img src="/assets/img/mangadex-logo.svg" alt="" />
-              <h2>MangaDex</h2>
-              <a href="" class="content-left__dropleft">
-                <label for="nav-mobile-course-checkbox"
-                  ><i class="content-left__icon fa-solid fa-angle-left"></i
-                ></label>
-              </a>
-            </div>
-            <div class="course-learn__container">
-              <ul class="course-learn__list">
-                <li class="course-learn__item">
-                  <a
-                    href=""
-                    class="course-learn__link course-learn__link--chosen"
-                    ><i class="home__icon fa-solid fa-house"></i> Home</a
-                  >
-                </li>
-                <li class="course-learn__item">
-                  <p class="course-learn__link course-learn__link--header">
-                    <i class="home__icon fa-solid fa-bookmark"></i> Follows
-                  </p>
-                  <ul class="content-left-menu__child">
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Updates
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Library
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        MDLists
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        My Groups
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Reading History
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="course-learn__item">
-                  <p class="course-learn__link course-learn__link--header">
-                    <i class="home__icon fa-solid fa-book-open"></i> Titles
-                  </p>
-                  <ul class="content-left-menu__child">
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Advanced Search
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Recently Added
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Lastest Updates
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Random
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="course-learn__item">
-                  <p class="course-learn__link course-learn__link--header">
-                    <i class="home__icon fa-solid fa-users"></i> Community
-                  </p>
-                  <ul class="content-left-menu__child">
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Forums
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Groups
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Users
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="course-learn__item">
-                  <p class="course-learn__link course-learn__link--header">
-                    <i class="home__icon fa-solid fa-marker"></i> MangaDex
-                  </p>
-                  <ul class="content-left-menu__child">
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Site Rules
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        Announcements
-                      </a>
-                    </li>
-                    <li class="course-learn__item">
-                      <a
-                        href=""
-                        class="course-learn__link course-learn__link-child"
-                      >
-                        About Us
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <div class="manga__communities">
-                <a class="manga__communities-icon" href="">
-                  <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a class="manga__communities-icon" href="">
-                  <i class="fa-brands fa-discord"></i>
-                </a>
-                <a class="manga__communities-icon" href="">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-                <a class="manga__communities-icon" href="">
-                  <i class="fa-brands fa-reddit-alien"></i>
-                </a>
-              </div>
-              <div class="manga__copyright">
-                <p class="manga__copyright-text">v2024.8.19</p>
-                <p class="manga__copyright-text">© MangaDex 2024</p>
-              </div>
-            </div>
-          </div>
-          <div class="content-right__container">
-            <div class="grid wide grid-wide-course-learn">
-              <h1 class="content__header">Popular New Titles</h1>
-              <a href="" class="popular__box row">
-                <img
-                  src="/assets/img/f6f5e3fa-d11c-4bd1-a512-b75c14d1080a.jpg.512.jpg"
-                  alt=""
-                  class="popular__img col l-3 m-6 c-8"
-                  width="215px"
-                  height="308px"
-                />
-                <div class="popular__information col l-9 m-6 c-12">
-                  <h2 class="popular__header">Irozuku Monochrome</h2>
-                  <span class="popular__tags popular__tags--highlight"
-                    >Suggestive</span
-                  >
-                  <span class="popular__tags">Comedy</span>
-                  <span class="popular__tags">Romance</span>
-                  <p class="popular__description">
-                    Isshiki falls in love with a maiden who is pure and
-                    innocent, but he has been possessed by Asmodeus, the demon
-                    of lust.
-                  </p>
-                  <p class="popular__description">
-                    Isshiki falls in love with a maiden who is pure and
-                    innocent, but he has been possessed by Asmodeus, the demon
-                    of lust.
-                  </p>
-                  <div class="popular__transition">
-                    <p class="popular__author">Uchiyama Atsushi</p>
-                    <div class="popular__transition-right">
-                      <p class="popular_no">NO.2</p>
-                      <i class="popular__icon fa-solid fa-angle-left"></i>
-                      <i class="popular__icon fa-solid fa-angle-right"></i>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <div class="latest__box">
-                <h1 class="content__header">Latest Updates</h1>
-                <div class="latest__container row">
-                  <div class="lastest__content col l-4 m-6 c-12">
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="lastest__content col l-4 m-6 c-12">
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="lastest__content col l-4 m-6 c-12">
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="" class="lastest__content-box">
-                      <img
-                        width="56px"
-                        height="80px"
-                        src="/assets/img/bd3b29e3-ae6c-4f7d-9cc9-5d1381e9d2ac.jpg.256.jpg"
-                        alt=""
-                        class="lastest__content-img"
-                      />
-                      <div class="lastest__content-comic" style="width: 100%">
-                        <h3 class="lastest__content-header">Iron Ladies</h3>
-                        <div class="lastest__content-flex">
-                          <div style="display: flex; align-items: center">
-                            <img
-                              width="20px"
-                              height="20px"
-                              src="/assets/img/gb.svg"
-                              class="lastest__content-made"
-                            />
-                            <span class="lastest__content-chap">Ch. 687</span>
-                          </div>
-                          <i
-                            class="lastest__content-comment fa-regular fa-comment"
-                          ></i>
-                        </div>
-                        <div
-                          style="margin-top: 10px"
-                          class="lastest__content-flex"
-                        >
-                          <div>
-                            <i
-                              class="lastest__content-comment fa-solid fa-users"
-                            ></i>
-                            <span class="lastest__content-group">No Group</span>
-                          </div>
-                          <div class="lastest__content-time">2 minutes ago</div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="slider-comic">
-                <h1 class="content__header">Self-Published</h1>
-                <div class="slider-comic-container row">
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                </div>
-              </div>
-              <div class="slider-comic">
-                <h1 class="content__header">Staff Picks</h1>
-                <div class="slider-comic-container row">
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                  <a href="" class="slider-comic-box col l-3 m-4 c-6">
-                    <div class="relative">
-                      <img
-                        src="/assets/img/thumbnail.png"
-                        alt=""
-                        class="slider-comic__img"
-                        width="100%"
-                      />
-                      <div class="overflow__slider">
-                        <p class="overflow__slider-text">
-                          She's cute! She's beautiful! She's sexy! She... speaks
-                          in tongues? In this Vietnamese manga, meet the
-                          Brainrot Girlfriend! She means well, but good luck
-                          understanding what she says.
-                        </p>
-                      </div>
-                    </div>
-                    <h4 class="slider-comic-header">Brainrot Girlfriend</h4>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Body -->
-  </body>
+<html>
+<head>
+    <style>
+        #wrap-outer {
+            overflow: hidden;
+            height: 740px;
+            display: table;
+            margin: auto;
+            width: 1260px;
+        }
+        #wrap {
+            width: 80vw;
+            height: auto;
+            max-width: 1000px;
+            max-height: 740px;
+            overflow: hidden;
+            overflow-wrap: break-word;
+            letter-spacing: -4px;
+            font-size: 10px;
+            margin: auto;
+            color: #fff;
+            overflow: hidden;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #wrap div.black {
+            background-color: #000;
+            border: 1px solid #000 inset;
+        }
+        #wrap div.white {
+            background-color: #fff;
+            border: 1px solid #fff inset;
+        }
+        #wrap div {
+            width: 0.8vw;
+            height: 0.9vw;
+            max-width: 10px;
+            display: block;
+            float: left;
+            max-height: 9px;
+            max-height: 10px;
+        }
+        #wrap input {
+            width: 6px;
+            height: 6px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+        }
+        #c1 {
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0;
+            width: 1000px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="c1" hidden></canvas>
+    <div id="wrap"></div>
+    <video id="video" hidden src="https://www.dl.dropboxusercontent.com/s/7do74o9l9gb3r4l/badapple_1.mp4" width="300" height="300" autoload controls crossorigin="anonymous"></video>
+
+    <script>
+        const processor = {};
+        let wrap = document.querySelector("#wrap");
+        
+        processor.doLoad = function doLoad() {
+            const video = document.querySelector("#video");
+            if (video.width == 0) {
+                processor.doLoad();
+                return;
+            }
+            this.video = video;
+            this.c1 = document.querySelector("#c1");
+            this.ctx1 = this.c1.getContext("2d", { willReadFrequently: true });
+            
+            // Auto-play the video when loaded
+            video.addEventListener("loadeddata", () => {
+                video.play();
+            });
+            
+            video.addEventListener("play", () => {
+                this.width = video.videoWidth;
+                this.height = video.videoHeight;
+                this.timerCallback();
+            });
+        };
+
+        processor.timerCallback = function timerCallback() {
+            if (this.video.paused || this.video.ended) {
+                return;
+            }
+            this.computeFrame();
+            setTimeout(() => {
+                this.timerCallback();
+            }, 0);
+        };
+
+        processor.computeFrame = function computeFrame() {
+            this.ctx1.drawImage(this.video, 0, 0, this.width, this.height);
+            const frame = this.ctx1.getImageData(0, 0, this.width, this.height);
+            const length = frame.data.length;
+            const data = frame.data;
+            let val = "";
+            for (let i = 0; i < length; i += 4) {
+                const r = data[i + 0];
+                const g = data[i + 1];
+                const b = data[i + 2];
+                const white = r > 100 && g > 0 && b > 80;
+                const green = g > 245;
+
+                if (!(green || white)) {
+                    val += '<div class="black"></div>';
+                } else {
+                    val += '<div class="white"></div>';
+                }
+            }
+            wrap.innerHTML = val;
+        };
+
+        // Start processing when the page loads
+        window.onload = function() {
+            processor.doLoad();
+        };
+    </script>
+</body>
 </html>
